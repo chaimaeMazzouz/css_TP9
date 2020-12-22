@@ -1,0 +1,28 @@
+h1,
+h2 {
+  background-color: #009999;
+  color: #ffffff;
+  text-align: center;
+}
+#adresse {
+  width: 250px;
+}
+.table-produit th,
+.table-produit td {
+  border: 1px solid #000;
+  text-align: center;
+}
+.mantant::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+.mantant-label {
+  font-style: italic;
+  font-weight: bold;
+}
+.Envoyez {
+  width: 200px;
+}
+.numero {
+  width: 300px;
+}

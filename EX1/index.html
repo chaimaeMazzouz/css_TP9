@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Vente PIZZA</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="nom">Nom Client:</label></td>
+          <td><input type="text" name="nom" id="nom" /></td>
+        </tr>
+        <tr>
+          <td><label for="adresse">Adresse:</label></td>
+          <td><input type="text" name="adresse" id="adresse" /></td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <h2>Produit à acheter</h2>
+    <table class="table-produit">
+      <tr>
+        <th>Nom de Produit</th>
+        <th>Prix Unitaire en DH</th>
+        <th>Quantite</th>
+      </tr>
+      <tr>
+        <td>PIZZA 4 Fromages</td>
+        <td>80</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>PIZZA Herbo</td>
+        <td>75</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>PIZZA viande hachée</td>
+        <td>100</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>PIZZA fruits de mer</td>
+        <td>120</td>
+        <td></td>
+      </tr>
+    </table>
+    <hr />
+    <form action="" class="form2">
+      <h3>Paiement par:</h3>
+
+      <input type="radio" name="Paiement" />Carte Bancaire
+      <input type="radio" name="Paiement" />Cheque
+      <br />
+      <label for="numero">Numéro de la carte Bancaire:</label><br />
+      <input type="text" name="numero" class="numero" /><br />
+      <input type="submit" value="Envoyez" class="Envoyez" /><br />
+      <label for="mantant" class="mantant-label"
+        >Merci de votre visite, le montant de votre commande est:</label
+      >
+      <input type="text" name="mantant" class="mantant" placeholder="280" />
+    </form>
+  </body>
+</html>
